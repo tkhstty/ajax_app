@@ -29,9 +29,9 @@ function post (){
         return null;
       };
       const list = document.getElementById("list");
-      const formtext = document.getElementById("content")
+      const formText = document.getElementById("content")
       list.insertAdjacentHTML("afterend", buildHTML(XHR));
-      formtext.value = ""
+      formText.value = ""
     };
   });
 };
